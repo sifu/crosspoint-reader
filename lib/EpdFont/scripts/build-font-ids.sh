@@ -35,12 +35,12 @@ ruby -rdigest -e 'puts [
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
-echo "#define BOOKERLY_18_FONT_ID ($(
+echo "#define BOOKERLY_20_FONT_ID ($(
 ruby -rdigest -e 'puts [
-  "./bookerly_18_regular.h",
-  "./bookerly_18_bold.h",
-  "./bookerly_18_bolditalic.h",
-  "./bookerly_18_italic.h",
+  "./bookerly_20_regular.h",
+  "./bookerly_20_bold.h",
+  "./bookerly_20_bolditalic.h",
+  "./bookerly_20_italic.h",
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
@@ -71,12 +71,12 @@ ruby -rdigest -e 'puts [
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
-echo "#define NOTOSANS_18_FONT_ID ($(
+echo "#define NOTOSANS_20_FONT_ID ($(
 ruby -rdigest -e 'puts [
-  "./notosans_18_regular.h",
-  "./notosans_18_bold.h",
-  "./notosans_18_bolditalic.h",
-  "./notosans_18_italic.h",
+  "./notosans_20_regular.h",
+  "./notosans_20_bold.h",
+  "./notosans_20_bolditalic.h",
+  "./notosans_20_italic.h",
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
@@ -107,12 +107,12 @@ ruby -rdigest -e 'puts [
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
-echo "#define OPENDYSLEXIC_14_FONT_ID ($(
+echo "#define OPENDYSLEXIC_16_FONT_ID ($(
 ruby -rdigest -e 'puts [
-  "./opendyslexic_14_regular.h",
-  "./opendyslexic_14_bold.h",
-  "./opendyslexic_14_bolditalic.h",
-  "./opendyslexic_14_italic.h",
+  "./opendyslexic_16_regular.h",
+  "./opendyslexic_16_bold.h",
+  "./opendyslexic_16_bolditalic.h",
+  "./opendyslexic_16_italic.h",
 ].map{|f| Digest::SHA256.hexdigest(File.read(f)).to_i(16) }.sum % (2 ** 32) - (2 ** 31)'
 ))"
 
